@@ -37,9 +37,9 @@ Steps:
 
     python -m unittest
     
-### How add new model
+### How to add a new model
 
-* Create file of model in `src/models` directory.
+* Create a file of the model in `src/models` directory.
 
 * Create the class of model and inheritance it from `(db.Model, BaseModel)` in the model file. Example:
 
@@ -60,11 +60,11 @@ class Cat(db.Model, BaseModel):
 
 * Apply migrations with `python manage.py db upgrade`
 
-### How to create api entry point:
+### How to create API entry point:
 
 * Create the resource file in `src/resource` directory.
 
-* Create the resource class in the resource file. Example:
+* Create a resource class in the resource file. Example:
 
 ```python
 from flask_restful import Resource, abort

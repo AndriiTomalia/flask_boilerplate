@@ -1,6 +1,6 @@
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from src.model import db
+from src.server import db
 
 from src.model.abc import BaseModel
 

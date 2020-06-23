@@ -8,6 +8,7 @@ Steps:
 
 1. Clone/pull/download this repository
 2. Create a virtualenv with `python3 -m venv env_py37` and install dependencies with `pip install -r requirements.txt`
+3. Rename `example.env` to `.env`
 4. Configure your `.env` variables
 5. Apply migrations with `python manage.py db upgrade`
 
